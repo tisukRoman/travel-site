@@ -2,7 +2,13 @@
 
 @import "./sass/base";
 @import "./sass/variables";
+@import "./sass/utils";
 @import "./sass/typography";
 
+// components
+@import "./sass/components/page-section";
 @import "./sass/components/large-hero";
 @import "./sass/components/button";
+@import "./sass/components/wrapper";
+@import "./sass/components/heading";
+@import "./sass/components/feature";

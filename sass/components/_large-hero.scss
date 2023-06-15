@@ -1,6 +1,7 @@
 .large-hero {
   color: purple;
   position: relative;
+  border-bottom: 10px solid $color-primary;
 
   &__text-content {
     position: absolute;
@@ -14,23 +15,27 @@
   &__title {
     font-weight: 300;
     color: $color-primary;
-    font-size: 1.2rem;
+    font-size: 3rem;
     margin: 0;
   }
 
   &__subtitle {
     font-weight: 300;
     color: $color-primary;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin: 0;
   }
 
   &__description {
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
-    max-width: 15rem;
-    margin: 0.5rem auto;
+    max-width: 18rem;
+    margin: 1.6rem auto;
+  }
+
+  &__image {
+    display: block;
   }
 }

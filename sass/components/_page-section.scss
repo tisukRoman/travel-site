@@ -1,0 +1,10 @@
+.page-section {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+  border: 1px solid red;
+
+  &--secondary {
+    background-color: $color-primary;
+    color: #fff;
+  }
+}

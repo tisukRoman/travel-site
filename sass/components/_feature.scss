@@ -1,0 +1,36 @@
+.features {
+  &__heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  &__heading-text {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  &__grid {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+}
+
+.feature {
+  display: flex;
+  gap: 2rem;
+
+  &__image {
+    display: block;
+    align-self: flex-start;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+}
