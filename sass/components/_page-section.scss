@@ -7,4 +7,9 @@
     background-color: $color-primary;
     color: #fff;
   }
+
+  &--testimonials {
+    background: url("/assets/images/testimonials-bg.jpg") center / cover
+      no-repeat;
+  }
 }
